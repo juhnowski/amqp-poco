@@ -1,4 +1,13 @@
 /home/ilya/clion-2020.1.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/ilya/CLionProjects/amqp
--- Configuring done
--- Generating done
--- Build files have been written to: /home/ilya/CLionProjects/amqp/cmake-build-debug
+CMake Error at CMakeLists.txt:11 (include):
+  include could not find load file:
+
+    /home/ilya/CLionProjects/amqp/cmake-build-debug/conanbuildinfo.cmake
+
+
+CMake Error at CMakeLists.txt:12 (conan_basic_setup):
+  Unknown CMake command "conan_basic_setup".
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/ilya/CLionProjects/amqp/cmake-build-debug/CMakeFiles/CMakeOutput.log".

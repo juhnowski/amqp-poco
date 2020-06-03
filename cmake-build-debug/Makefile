@@ -110,89 +110,6 @@ depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named amqp
-
-# Build rule for target.
-amqp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 amqp
-.PHONY : amqp
-
-# fast build rule for target.
-amqp/fast:
-	$(MAKE) -f CMakeFiles/amqp.dir/build.make CMakeFiles/amqp.dir/build
-.PHONY : amqp/fast
-
-#=============================================================================
-# Target rules for targets named poco_simple_handler
-
-# Build rule for target.
-poco_simple_handler: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 poco_simple_handler
-.PHONY : poco_simple_handler
-
-# fast build rule for target.
-poco_simple_handler/fast:
-	$(MAKE) -f CMakeFiles/poco_simple_handler.dir/build.make CMakeFiles/poco_simple_handler.dir/build
-.PHONY : poco_simple_handler/fast
-
-SimplePocoHandler.o: SimplePocoHandler.cpp.o
-
-.PHONY : SimplePocoHandler.o
-
-# target to build an object file
-SimplePocoHandler.cpp.o:
-	$(MAKE) -f CMakeFiles/amqp.dir/build.make CMakeFiles/amqp.dir/SimplePocoHandler.cpp.o
-	$(MAKE) -f CMakeFiles/poco_simple_handler.dir/build.make CMakeFiles/poco_simple_handler.dir/SimplePocoHandler.cpp.o
-.PHONY : SimplePocoHandler.cpp.o
-
-SimplePocoHandler.i: SimplePocoHandler.cpp.i
-
-.PHONY : SimplePocoHandler.i
-
-# target to preprocess a source file
-SimplePocoHandler.cpp.i:
-	$(MAKE) -f CMakeFiles/amqp.dir/build.make CMakeFiles/amqp.dir/SimplePocoHandler.cpp.i
-	$(MAKE) -f CMakeFiles/poco_simple_handler.dir/build.make CMakeFiles/poco_simple_handler.dir/SimplePocoHandler.cpp.i
-.PHONY : SimplePocoHandler.cpp.i
-
-SimplePocoHandler.s: SimplePocoHandler.cpp.s
-
-.PHONY : SimplePocoHandler.s
-
-# target to generate assembly for a file
-SimplePocoHandler.cpp.s:
-	$(MAKE) -f CMakeFiles/amqp.dir/build.make CMakeFiles/amqp.dir/SimplePocoHandler.cpp.s
-	$(MAKE) -f CMakeFiles/poco_simple_handler.dir/build.make CMakeFiles/poco_simple_handler.dir/SimplePocoHandler.cpp.s
-.PHONY : SimplePocoHandler.cpp.s
-
-main.o: main.cpp.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/amqp.dir/build.make CMakeFiles/amqp.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/amqp.dir/build.make CMakeFiles/amqp.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/amqp.dir/build.make CMakeFiles/amqp.dir/main.cpp.s
-.PHONY : main.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -201,14 +118,6 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... amqp"
-	@echo "... poco_simple_handler"
-	@echo "... SimplePocoHandler.o"
-	@echo "... SimplePocoHandler.i"
-	@echo "... SimplePocoHandler.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
 .PHONY : help
 
 

@@ -53,8 +53,7 @@ CMAKE_BINARY_DIR = /home/ilya/CLionProjects/amqp/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/amqp.dir/all
-all: CMakeFiles/poco_simple_handler.dir/all
+all:
 
 .PHONY : all
 
@@ -64,64 +63,9 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/amqp.dir/clean
-clean: CMakeFiles/poco_simple_handler.dir/clean
+clean:
 
 .PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/amqp.dir
-
-# All Build rule for target.
-CMakeFiles/amqp.dir/all: CMakeFiles/poco_simple_handler.dir/all
-	$(MAKE) -f CMakeFiles/amqp.dir/build.make CMakeFiles/amqp.dir/depend
-	$(MAKE) -f CMakeFiles/amqp.dir/build.make CMakeFiles/amqp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ilya/CLionProjects/amqp/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target amqp"
-.PHONY : CMakeFiles/amqp.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/amqp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ilya/CLionProjects/amqp/cmake-build-debug/CMakeFiles 5
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/amqp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ilya/CLionProjects/amqp/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/amqp.dir/rule
-
-# Convenience name for target.
-amqp: CMakeFiles/amqp.dir/rule
-
-.PHONY : amqp
-
-# clean rule for target.
-CMakeFiles/amqp.dir/clean:
-	$(MAKE) -f CMakeFiles/amqp.dir/build.make CMakeFiles/amqp.dir/clean
-.PHONY : CMakeFiles/amqp.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/poco_simple_handler.dir
-
-# All Build rule for target.
-CMakeFiles/poco_simple_handler.dir/all:
-	$(MAKE) -f CMakeFiles/poco_simple_handler.dir/build.make CMakeFiles/poco_simple_handler.dir/depend
-	$(MAKE) -f CMakeFiles/poco_simple_handler.dir/build.make CMakeFiles/poco_simple_handler.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ilya/CLionProjects/amqp/cmake-build-debug/CMakeFiles --progress-num=4,5 "Built target poco_simple_handler"
-.PHONY : CMakeFiles/poco_simple_handler.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/poco_simple_handler.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ilya/CLionProjects/amqp/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/poco_simple_handler.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ilya/CLionProjects/amqp/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/poco_simple_handler.dir/rule
-
-# Convenience name for target.
-poco_simple_handler: CMakeFiles/poco_simple_handler.dir/rule
-
-.PHONY : poco_simple_handler
-
-# clean rule for target.
-CMakeFiles/poco_simple_handler.dir/clean:
-	$(MAKE) -f CMakeFiles/poco_simple_handler.dir/build.make CMakeFiles/poco_simple_handler.dir/clean
-.PHONY : CMakeFiles/poco_simple_handler.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

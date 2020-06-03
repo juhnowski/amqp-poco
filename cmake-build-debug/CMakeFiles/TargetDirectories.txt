@@ -1,4 +1,2 @@
 /home/ilya/CLionProjects/amqp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /home/ilya/CLionProjects/amqp/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/ilya/CLionProjects/amqp/cmake-build-debug/CMakeFiles/amqp.dir
-/home/ilya/CLionProjects/amqp/cmake-build-debug/CMakeFiles/poco_simple_handler.dir

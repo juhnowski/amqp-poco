@@ -48,6 +48,4 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/amqp.dir/DependInfo.cmake"
-  "CMakeFiles/poco_simple_handler.dir/DependInfo.cmake"
   )

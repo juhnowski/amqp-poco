@@ -24,3 +24,9 @@ cmake --build . --target install
 ```
 sudo apt-get install libpoco-dev
 ```
+
+- Conan C/C++ package manager
+https://conan.io/downloads.html
+```
+conan install .. -s build_type=Debug --build amqp-cpp --build libtiff --build opencv
+```
