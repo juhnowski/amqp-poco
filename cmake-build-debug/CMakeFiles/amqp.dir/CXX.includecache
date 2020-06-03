@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ilya/CLionProjects/amqp/SimplePocoHandler.h
+memory
+-
+amqpcpp.h
+-
+
+/home/ilya/CLionProjects/amqp/main.cpp
+iostream
+-
+SimplePocoHandler.h
+/home/ilya/CLionProjects/amqp/SimplePocoHandler.h
+

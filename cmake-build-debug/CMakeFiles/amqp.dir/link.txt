@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/amqp.dir/main.cpp.o CMakeFiles/amqp.dir/SimplePocoHandler.cpp.o  -o amqp  -Wl,-Bstatic -lamqpcpp libpoco_simple_handler.a -Wl,-Bdynamic -lPocoNet -lPocoFoundation 
