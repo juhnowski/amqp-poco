@@ -1,10 +1,12 @@
 [requires]
- openssl/1.1.1g@
- protobuf/3.11.4@
- amqp-cpp/4.1.6@
- poco/1.10.1@
- libev/4.27@
-  opencv/4.1.1@conan/stable
+ freetype/2.10.1
+ openjpeg/2.3.1
+ bzip2/1.0.8@conan/stable
+ opencv/4.1.1@conan/stable
+
+[options]
+ opencv:contrib=True
+ opencv:ffmpeg=True
 
 [generators]
-cmake
+ cmake
